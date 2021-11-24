@@ -1,3 +1,5 @@
-https://cssgradient.io/
+# My personal Linktree
 
-https://fonts.google.com/specimen/Architects+Daughter?query=arc#standard-styles
+## On github pages:
+
+[Linktree](https://lcsalvs.github.io/)
