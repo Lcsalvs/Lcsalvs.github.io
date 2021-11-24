@@ -9,69 +9,97 @@ html, body {
 
 body {
   color: #fff;
-  background: rgb(54,77,204);
-  background: linear-gradient(169deg, rgba(54,77,204,1) 0%, rgba(24,41,133,1) 100%);
+  background: rgb(111,80,131);
+  background: linear-gradient(90deg, rgba(111,80,131,1) 35%, rgba(40,127,144,1) 100%);
 
   font-family: 'Raleway', sans-serif;
 }
 
-.avatar {
-  width: 80px;
-  border-radius: 50px;
-
-  border: 3px solid #fff;
-  box-shadow: 0 0 20px #fff;
+.container {
+  max-width: 900px;
+  margin: 0 auto;
 }
 
-a {
-  text-decoration: none;
+.profile {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.photo {
+  width: 150px;
+  border-radius: 80px;
+
+  border: 1.5px solid #fff;
+  box-shadow: 0 0 20px #fff;
 }
 
 h1 {
   font-family: 'Architects Daughter', cursive;
   font-weight: 100;
   font-size: 24px;
-
   margin-bottom: 2px;
 }
 
 h2 {
   font-size: 16px;
+  margin-bottom: 10px;
 }
 
-.profile {
-  margin-top: 20px;
-  text-align: center;
+a {
+  text-decoration: none;
 }
 
-.social {
+.social{
   display: flex;
   justify-content: space-around;
+
   margin: 20px 0;
 
   list-style: none;
 }
 
-.social img {
+.social img{
   width: 33px;
+}
+
+.links-list ul {
+  margin-top: 100px;
+}
+
+.links-list li {
+  list-style: none;
 }
 
 .links-list li a{
   display: block;
 
   background-color: #fff;
-  color: rgb(54,77,204);
-  border-radius: 4px;
- 
-  padding: 15px 20px;
-  margin: 10px 20px;
+  color: rgb(113, 23, 197);
+  border-radius: 5px;
 
   font-weight: bold;
+  font-size: 20px;
+  
+  margin: 10px 20px;
+  padding: 15px 20px;
 }
 
 .links-list li a span {
   display: block;
   margin-top: 10px;
-  
+
+  font-weight: 200;
+  font-size: 15px;
+
   color: rgba(51, 51, 51, 0.692);
+}
+
+.links-list li {
+  margin: 10px 20px;
+  transition: 0.3s;
+}
+
+.links-list li:hover {
+  margin: 10px 5px;
+  transition: 0.3s;
 }
